@@ -1,51 +1,38 @@
 
-/*
-    RESET 
-*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+.tab{
+    min-height: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
 }
 
-/*
-    GENERAL
-*/
-
-html{
-    font-family: Arial, Helvetica, sans-serif;
+.tab > *{
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
 }
 
-
-/*
-    HEADER
-*/
-
-/*
-    MAIN
-*/
-
-
-/*
-    MEDIA QUERY
-*/
-
-/* Caso base: mobile piccolo */
-@media screen and (min-width: 480px){
-}
-/* Caso: mobile grande*/
-@media screen and (min-width: 576px){
-}
-/* Caso: tablet*/
-@media screen and (min-width: 768px){
-}
-/* Caso: desktop*/
-@media screen and (min-width: 992px){
+.vote{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 
+.vote-info{
+    border: 0;
+}
 
-
+.distance{
+    font-size: 0.8rem;
+}
 /*
     DEBUG
 */
